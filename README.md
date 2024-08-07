@@ -9,7 +9,7 @@ Composite Element Detection operates in two modes: BCP, for boron carbon polymer
 
 
 
-### BCP Logic
+#### BCP Logic
 
 BCP operation has three primary stages: circle fitting, to identify whole boron fibers; circle validation, to remove invalid boron detection; and thresholding, to identify boron fragments, carbon, and polymer regions. Circle fitting is used in addition to thresholding to include boron voids, which would otherwise be incorrectly identified as polymer. 
 
@@ -17,7 +17,7 @@ Circle fitting is excessive to ensure all boron is identified; as a result, many
 
 The image is then thresholded for three brightnesses: high, which identifies boron fragments that circle detection did not identify, middle, which identifies carbon fiber, and low, which identifies polymer. 
 
-### BTP Logic
+#### BTP Logic
 
 BTP operation is similar to BCP. Boron and tungsten are grouped identified and validated with the same circle and thresholding logic. To separate boron from tungsten, a subtle hue difference is used. The remaining polymer is thresholded, and the image is returned to the user for optional correction. Using a mouse, tungsten fibers or fragments that have been mischaracterized as boron are identified. The algorithm runs a second time with these data, and the final detection is produced. 
 
@@ -33,11 +33,11 @@ Input images are placed in the 'Images' folder; each must have '10x' or '20x' so
 
 The program will output two folders: 'Percentages.txt,' which contains the percentages of each constituent (BCP or BTP as per mode), and 'Processed Images,' which contains each input image with overlayed characterization criteria. 
 
-### BCP Operation
+#### BCP Operation
 
 Place images in the 'Images' folder, select the correct operation mode (1) and run the script. The percentages of each detected item will be output in 'Percentages.txt.' Detection quality should be confirmed by inspecting the 'Processed Images' folder; if needed, adjust the final two parameters in 'Parameters.txt.' 
 
-### BTP Operation
+#### BTP Operation
 
 Place a single image in the 'Images' folder, select the operation mode (2) and run the script. When the image is presented to the user, the mouse may be used to click on additional tungsten fibers or fragments that have been mischaracterized as boron. After corrections have been made, or if none were needed, press 'd'. After reprocessing, the percentages of each detected item will be output in 'Percentages.txt.' Detection quality should be confirmed by inspecting the 'Processed Images' folder; if needed, adjust the final two parameters in 'Parameters.txt.' 
 

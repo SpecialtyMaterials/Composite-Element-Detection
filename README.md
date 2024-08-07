@@ -33,11 +33,11 @@ Input images are placed in the 'Images' folder; each must have '10x' or '20x' so
 
 The program will output two folders: 'Percentages.txt,' which contains the percentages of each constituent (BCP or BTP as per mode), and 'Processed Images,' which contains each input image with overlayed characterization criteria. 
 
-# BCP Operation
+### BCP Operation
 
 Place images in the 'Images' folder, select the correct operation mode (1) and run the script. The percentages of each detected item will be output in 'Percentages.txt.' Detection quality should be confirmed by inspecting the 'Processed Images' folder; if needed, adjust the final two parameters in 'Parameters.txt.' 
 
-# BTP Operation
+### BTP Operation
 
 Place a single image in the 'Images' folder, select the operation mode (2) and run the script. When the image is presented to the user, the mouse may be used to click on additional tungsten fibers or fragments that have been mischaracterized as boron. After corrections have been made, or if none were needed, press 'd'. After reprocessing, the percentages of each detected item will be output in 'Percentages.txt.' Detection quality should be confirmed by inspecting the 'Processed Images' folder; if needed, adjust the final two parameters in 'Parameters.txt.' 
 

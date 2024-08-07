@@ -3,7 +3,7 @@ Computer vision algorithm for detection of boron, carbon fiber, tungsten, and po
 
 ![Sample Image](images/20x_BCP_Example.jpg)
 
-##Usage 
+## Usage 
 
 Input images are placed in the 'Images' folder and each must have '10x' or '20x' somewhere in the file name for processing to work accurately. 'Parameters.txt' contains the following parameters. 
 

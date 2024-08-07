@@ -1,7 +1,7 @@
 # Composite Substance Quantifier
 Computer vision algorithm for detection of boron, carbon fiber, tungsten, and polymer percentages in a microscope image.  
 
-![Sample Image](images/20x_BCP_Example.jpg)
+![Sample Image](exampleImages/20x_BCP_Example.jpg)
 
 ## Logic 
 

@@ -1,0 +1,6 @@
+mode = 2
+
+radius_inflation = 1.0 
+
+boron_sensitivity = 10 
+boron_detection_threshold = 20

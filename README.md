@@ -8,7 +8,6 @@ Computer vision algorithm for detection of boron, carbon fiber, tungsten, and po
 Composite Element Detection operates in two modes: BCP, for boron carbon polymer composites, and BTP, for boron tungsten polymer composites. 
 
 
-
 ### BCP Logic
 
 BCP operation has three primary stages: circle fitting, to identify whole boron fibers; circle validation, to remove invalid boron detection; and thresholding, to identify boron fragments, carbon, and polymer regions. Circle fitting is used in addition to thresholding to include boron voids, which would otherwise be incorrectly identified as polymer. 

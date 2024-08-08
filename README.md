@@ -23,21 +23,9 @@ BTP operation is similar to BCP. Boron and tungsten are grouped identified and v
 
 ## Usage 
 
-Input images are placed in the 'Images' folder; each must have '10x' or '20x' somewhere in the file name for processing to work accurately. 'Parameters.txt' contains the following parameters. 
+This section describes usage of the GUI. The code can also be run direclty using "main.py" and "Parameters.txt," drawing from the "Images" folder. 
 
-- Mode: Boron Carbon Polymer (BCP) or Boron Tungsten Polymer (BTP), depending on the type of composite being characterized. 
-- Radius inflation: percent that each boron detection circle is inflated
-- Boron sensitivity: sensitivity with which circles are fitted to boron fiber candidates
-- Boron detection threshold: threshold with which fitted boron candidates are validated
+Launch the GUI with GUI.py and expand the window if necessary. Input the requested image (must have '10x' or '20x' in the file name) and process Boron Carbon Polymer (BCP) or Boron Tungsten Polymer (BTP) mode, depending on the type of composite being characterized. In BTP mode, a window prompting manual correction will appear. The mouse may be used to click on additional tungsten fibers or fragments that have been mischaracterized as boron. After corrections have been made, or if none were needed, press 'd'. After reprocessing is complete for either mode, the percentages of each substance will be presented in the text box. Detection quality should be confirmed in the result window; if needed, the sliders Boron Detection Threshold and Boron Sensitivity may be adjusted. 
 
-The program will output two folders: 'Percentages.txt,' which contains the percentages of each constituent (BCP or BTP as per mode), and 'Processed Images,' which contains each input image with overlayed characterization criteria. 
-
-### BCP Operation
-
-Place images in the 'Images' folder, select the correct operation mode (1) and run the script. The percentages of each detected item will be output in 'Percentages.txt.' Detection quality should be confirmed by inspecting the 'Processed Images' folder; if needed, adjust the final two parameters in 'Parameters.txt.' 
-
-### BTP Operation
-
-Place a single image in the 'Images' folder, select the operation mode (2) and run the script. When the image is presented to the user, the mouse may be used to click on additional tungsten fibers or fragments that have been mischaracterized as boron. After corrections have been made, or if none were needed, press 'd'. After reprocessing, the percentages of each detected item will be output in 'Percentages.txt.' Detection quality should be confirmed by inspecting the 'Processed Images' folder; if needed, adjust the final two parameters in 'Parameters.txt.' 
-
-
+Boron detection threshold: threshold with which fitted boron candidates are validated
+Boron sensitivity: sensitivity with which circles are fitted to boron fiber candidates

@@ -176,8 +176,7 @@ def mouse_callback(event, x, y, flags, param):
 #revised runs if corrections have been made 
 def btp(clicks_array, image_file, image, boron_sensitivity=10, boron_detection_threshold = 20, radius_inflation = 1):
     finished = False
-    global overlay_image
-    global revised 
+    global overlay_image, revised, clicks
 
     if '10x' in image_file:
         min_radius = 65
@@ -286,6 +285,7 @@ def btp(clicks_array, image_file, image, boron_sensitivity=10, boron_detection_t
     if revised:
         revised = False
         finished = True
+        clicks = []
 
         #if the image has been corrected, islands are iterated through to determine if they should be ejected
         #every pixel is checked to see if it corresponds with one in the clicks_array (the user has selected it as anomalous)

@@ -28,6 +28,8 @@ This section describes usage of the GUI. The code can also be run direclty using
 Download the project (https://specialtymaterials.box.com/s/zaohe1jm6jwjm4j4a7abt711j3otz8lp) to run the executable inside the 'dist' folder, or 
 launch the GUI directly with GUI.py. Expand the window if necessary. Input the requested image (must have '10x' or '20x' in the file name) and process Boron Carbon Polymer (BCP) or Boron Tungsten Polymer (BTP) mode, depending on the type of composite being characterized. In BTP mode, a window prompting manual correction will appear. The mouse may be used to click on additional tungsten fibers or fragments that have been mischaracterized as boron. After corrections have been made, or if none were needed, press 'd'. After reprocessing is complete for either mode, the percentages of each substance will be presented in the text box. Detection quality should be confirmed in the result window; if needed, the sliders Boron Detection Threshold and Boron Sensitivity may be adjusted. 
 
-Boron detection threshold: threshold with which fitted boron candidates are validated.\n
+Boron detection threshold: threshold with which fitted boron candidates are validated
+
+
 Boron sensitivity: sensitivity with which circles are fitted to boron fiber candidates
 

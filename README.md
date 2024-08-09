@@ -30,3 +30,4 @@ launch the GUI directly with GUI.py. Expand the window if necessary. Input the r
 
 Boron detection threshold: threshold with which fitted boron candidates are validated
 Boron sensitivity: sensitivity with which circles are fitted to boron fiber candidates
+

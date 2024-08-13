@@ -73,7 +73,7 @@ def main(page):
         revised, clicks_array, processed, percentages = btp(clicks_array, globalFilePath, image, boron_sensitivity, boron_detection_threshold)
         if revised: _, _, processed, percentages = btp(clicks_array, globalFilePath, image, boron_sensitivity, boron_detection_threshold)
 
-        percentages_text = f"Boron: {percentages[0]}%, Polymer: {percentages[1]}%, Carbon: {percentages[2]}%"
+        percentages_text = f"Boron: {percentages[0]}%, Tungsten: {percentages[1]}%, Polymer: {percentages[2]}%"
 
         globalImage = processed
         base64_image = to_base64(globalImage)
@@ -117,6 +117,7 @@ def main(page):
     def on_click(e):
         file_picker.pick_files(allow_multiple=False, 
                                file_type=ft.FilePickerFileType.IMAGE)
+        
 
     button = ft.ElevatedButton("Select Image File", on_click=on_click)
     button_BTPMain = ft.ElevatedButton("BTP", on_click=BTPMain)

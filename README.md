@@ -1,5 +1,5 @@
 # Composite Element Detection
-Computer vision algorithm for detection of boron, carbon fiber, tungsten, and polymer percentages in a microscope image.  
+Computer vision software for the detection of boron, carbon fiber, tungsten, and polymer in a microscope cross-section of a composite.  
 
 ![Sample Image](exampleImages/screenshot.png)
 

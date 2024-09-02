@@ -1,4 +1,4 @@
-# Composite Substance Quantifier
+# Composite Element Detection
 Computer vision algorithm for detection of boron, carbon fiber, tungsten, and polymer percentages in a microscope image.  
 
 ![Sample Image](exampleImages/screenshot.png)
